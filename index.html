@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV of a Computer Science Developer">
+    <meta name="keywords" content="CV, portfolio, intern">
+    <meta name="author" content="Nguyễn Quyết Thắng">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Nguyễn Quyết Thắng - Junior Computer Science Developer">
+    <meta property="og:description" content="portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nguyenthang.com/portfolio">
+    
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio responsive complete</title>
+    </head>
+    <body>
+        <!--HEADER -->
+        <div id="header-container"></div>
+
+        <script>
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header-container').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading the header:', error));
+        </script>
+
+        <main class="l-main">
+            <!-- HOME -->
+            <div id="home-container"></div>
+
+            <script>
+                fetch('home.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('home-container').innerHTML = data;
+                    })
+                    .catch(error => console.error('Error loading the header:', error));
+            </script>
+            <!-- ABOUT -->
+            <div id="about-container"></div>
+
+            <script>
+                fetch('about.html')
+                .then(response => response.text())
+                .then(data => {
+                        document.getElementById('about-container').innerHTML = data;
+                    })
+                    .catch(error => console.error('Error loading the header:', error));
+            </script>
+
+            <!-- SKILLS -->
+            <div id="skills-container"></div>
+
+            <script>
+                fetch('skills.html')
+                .then(response => response.text())
+                .then(data => {
+                        document.getElementById('skills-container').innerHTML = data;
+                    })
+                    .catch(error => console.error('Error loading the header:', error));
+            </script>
+
+            <!-- EXPERIENCES -->
+            <div id="experiences-container"></div>
+
+            <script>
+                fetch('experiences.html')
+                .then(response => response.text())
+                .then(data => {
+                        document.getElementById('experiences-container').innerHTML = data;
+                    })
+                    .catch(error => console.error('Error loading the header:', error));
+            </script>
+
+            <div id="experience1-container"></div>
+
+            <script>
+                fetch('experience1.html')
+                .then(response => response.text())
+                .then(data => {
+                        document.getElementById('experience1-container').innerHTML = data;
+                    })
+                    .catch(error => console.error('Error loading the header:', error));
+            </script>
+
+            <div id="experience2-container"></div>
+
+            <script>
+                fetch('experience2.html')
+                .then(response => response.text())
+                .then(data => {
+                        document.getElementById('experience2-container').innerHTML = data;
+                    })
+                    .catch(error => console.error('Error loading the header:', error));
+            </script>
+
+            <!-- CONTACT -->
+            <div id="contact-container"></div>
+
+            <script>
+                fetch('contact.html')
+                .then(response => response.text())
+                .then(data => {
+                        document.getElementById('contact-container').innerHTML = data;
+                    })
+                    .catch(error => console.error('Error loading the header:', error));
+            </script>
+
+        <!-- FOOTER -->
+        <div id="footer-container"></div>
+
+        <script>
+            fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                    document.getElementById('footer-container').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading the header:', error));
+        </script>
+
+        <!-- SCROLL REVEAL -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </body>
+</html>
