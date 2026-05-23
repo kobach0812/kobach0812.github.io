@@ -1,19 +1,51 @@
 <section class="about section" id="about">
-    <h2 class="section-title">About</h2>
+    <div class="container">
+        <p class="section-eyebrow reveal">// 01. About me</p>
+        <h2 class="section-title reveal">Who <span class="accent">I am</span></h2>
 
-    <div class="about__container bd-grid">
-        <div class="about__img">
-            <img src="assets/img/andy.png" alt="">
-        </div>
+        <div class="about__grid">
+            <div class="about__card reveal">
+                <h3 style="color: var(--text); font-size:1.25rem; margin-bottom: 1rem;">Enthusiastic. Curious. Builder.</h3>
+                <p class="about__text">
+                    I'm a junior software engineer with a strong foundation in programming, algorithms,
+                    and software development. My experience spans the full stack — React/Next.js on the
+                    frontend, Python and Java on the backend, and Swift for iOS.
+                </p>
+                <p class="about__text">
+                    I thrive in agile teams, practice test-driven development, and care about clean
+                    CI/CD workflows. I'm passionate about problem-solving and learning new technologies,
+                    and I'm eager to contribute to innovative projects in a dynamic tech environment.
+                </p>
+            </div>
 
-        <div>
-            <h2 class="about__subtitle">I'm Nguyen Quyet Thang</h2>
-            <span class="about__profession">Junior Computer Science Engineer</span>
-            <p class="about__text">Enthusiastic Junior Computer Science Engineer with a strong foundation in programming, algorithms, and software development. Passionate about problem-solving, coding, and learning new technologies. Skilled in Python, Java, and web development. Eager to contribute to innovative projects and grow in a dynamic tech environment. Strong teamwork and analytical skills.</p>
+            <div class="reveal">
+                <div class="about__stats">
+                    <div class="stat">
+                        <div class="stat__num">3+</div>
+                        <div class="stat__label">Years Coding</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__num">55+</div>
+                        <div class="stat__label">Tests Written</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__num">8+</div>
+                        <div class="stat__label">Languages &amp; Tools</div>
+                    </div>
+                </div>
 
-            <div class="about__social">
-                <a href="www.linkedin.com/in/nguyễn-quyết-thắng-724262313" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://github.com/kobach0812" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                <div style="margin-top: 2rem; padding: 1.5rem; background: var(--surface); border:1px solid var(--border); border-radius: var(--radius-lg);">
+                    <div style="display:flex; align-items:center; gap: .75rem; margin-bottom: .5rem;">
+                        <i class='bx bx-map' style="color: var(--accent); font-size: 1.4rem;"></i>
+                        <strong>Currently based in</strong>
+                    </div>
+                    <p style="color: var(--text-muted); font-size: .95rem;">Nottingham, United Kingdom</p>
+                    <div style="display:flex; align-items:center; gap: .75rem; margin: 1rem 0 .5rem;">
+                        <i class='bx bx-briefcase' style="color: var(--accent); font-size: 1.4rem;"></i>
+                        <strong>Open to</strong>
+                    </div>
+                    <p style="color: var(--text-muted); font-size: .95rem;">Internships &amp; junior engineering roles</p>
+                </div>
             </div>
         </div>
     </div>

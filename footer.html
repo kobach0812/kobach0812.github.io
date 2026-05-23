@@ -1,28 +1,39 @@
-<footer class="footer section">
-    <div class="footer__container bd-grid">
-        <div class="footer__data">
-            <h2 class="footer__title">Nguyễn Quyết Thắng</h2>
-            <p class="footer__text">I'm Nguyễn Quyết Thắng and this is my personal website</p>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__brand">
+            <h3>Quyet Thang Nguyen</h3>
+            <p>Junior software engineer building thoughtful, performant web &amp; mobile experiences from Nottingham, UK.</p>
+            <div class="footer__socials" style="margin-top: 1.5rem;">
+                <a href="https://github.com/kobach0812" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="https://linkedin.com/in/andythang" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:nquyetthang.work@gmail.com" aria-label="Email"><i class='bx bx-envelope'></i></a>
+            </div>
         </div>
 
-        <div class="footer__data">
-            <h2 class="footer__title">EXPLORE</h2>
-            <ul_none>
-                <li><a href="#home" class="footer__link">Home</a></li>
-                <li><a href="#about" class="footer__link">About</a></li>
-                <li><a href="#skills" class="footer__link">Skills</a></li>
-                <li><a href="#portfolio" class="footer__link">Experiences</a></li>
-                <li><a href="#Contact" class="footer__link">Contact</a></li>
-            </ul_none>
-        </div>
-        
-        <div class="footer__data">
-            <h2 class="footer__title">FOLLOW</h2>
-            <a href="https://www.facebook.com/thang.andy.315/" class="footer__social"><i class='bx bxl-facebook' ></i></a>
-            <a href="https://www.instagram.com/_andy_thang_" class="footer__social"><i class='bx bxl-instagram' ></i></a>
-            <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+        <div>
+            <h4 class="footer__heading">Explore</h4>
+            <div class="footer__links">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
 
+        <div>
+            <h4 class="footer__heading">Resources</h4>
+            <div class="footer__links">
+                <a href="CV/cv_Quyet_Thang_Nguyen.pdf" target="_blank">Download CV</a>
+                <a href="https://github.com/kobach0812" target="_blank">GitHub Profile</a>
+                <a href="https://linkedin.com/in/andythang" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </div>
 
+    <div class="footer__bottom">
+        © <span id="year"></span> Quyet Thang Nguyen. Built with HTML, CSS &amp; care.
     </div>
 </footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
